@@ -15,7 +15,10 @@ public class Ejercicio8 {
             case 4 -> System.out.println(3);
             case 5 -> System.out.println(2);
             case 6 -> System.out.println(1);
-            default -> System.err.println("ERROR: número incorrecto");
+            default -> {
+                System.err.println("ERROR: número incorrecto");
+                System.exit(-1);
+            }
         }
     }
 }
