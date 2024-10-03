@@ -1,4 +1,4 @@
-package com.byjosep04.tema03;
+package com.byjosep04.tema03.condicional;
 
 import java.util.Scanner;
 public class Ejercicio7 {
