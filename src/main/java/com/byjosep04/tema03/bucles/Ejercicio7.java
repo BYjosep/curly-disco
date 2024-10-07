@@ -8,5 +8,6 @@ public class Ejercicio7 {
         Scanner scanner =new Scanner(System.in);
         System.out.println("Ingrese la base");
         a= Integer.parseInt(scanner.nextLine());
+        b= Integer.parseInt(scanner.nextLine());
     }
 }
