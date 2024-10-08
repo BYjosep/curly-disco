@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class Ejercicio7 {
     public static void main(String[] args) {
-        int a, b;
+        float a;
+        int b;
         int positivoB;
         double total;
         Scanner scanner = new Scanner(System.in);
