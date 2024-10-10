@@ -8,7 +8,7 @@ public class Ejercicio12 {
         int intentos, numero, aleatorio;
         boolean ganador = false;
         Random random = new Random();
-        aleatorio = random.nextInt();
+        aleatorio = random.nextInt(1,101);
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese cuantos intentos desea");
         intentos = Integer.parseInt(scanner.nextLine());
