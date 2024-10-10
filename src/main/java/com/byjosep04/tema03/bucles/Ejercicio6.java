@@ -17,9 +17,9 @@ public class Ejercicio6 {
             }
         } while (validate == 0);
         scanner.close();
-        for (int i = 0; i <= 10; i++){
-            multiplicacion= i*numeroEntrada;
-            System.out.println(numeroEntrada+"X"+i+" es: "+ multiplicacion);
+        for (int i = 0; i <= 10; i++) {
+            multiplicacion = i * numeroEntrada;
+            System.out.println(numeroEntrada + "X" + i + " es: " + multiplicacion);
         }
 
 

@@ -7,22 +7,22 @@ public class Ejercicio13 {
         boolean moneda;
         int cara = 0;
         int cruz = 0;
-        double porcentajeCara,porcentajeCruz;
-        final double PORCENTAJE =(double) 100/1000000;
+        double porcentajeCara, porcentajeCruz;
+        final double PORCENTAJE = (double) 100 / 1000000;
 
-        Random random =new Random();
+        Random random = new Random();
 
         for (int i = 0; i < 1_000_000; i++) {
             moneda = random.nextBoolean();
-            if (moneda){
+            if (moneda) {
                 cara++;
-            }else {
+            } else {
                 cruz++;
             }
         }
-        porcentajeCara= (double) cara*PORCENTAJE;
-        porcentajeCruz= (double) cruz*PORCENTAJE;
-        System.out.println("El porcentaje de veces que ha salido cara es:"+porcentajeCara);
-        System.out.println("El porcentaje de veces que ha salido cruz es:"+porcentajeCruz);
+        porcentajeCara = (double) cara * PORCENTAJE;
+        porcentajeCruz = (double) cruz * PORCENTAJE;
+        System.out.println("El porcentaje de veces que ha salido cara es:" + porcentajeCara);
+        System.out.println("El porcentaje de veces que ha salido cruz es:" + porcentajeCruz);
     }
 }

@@ -31,7 +31,7 @@ public class Ejercicio3 {
         for (int i = 1; i <= numero1; i++) {
             producto = producto + numero2;
         }
-        producto= producto*signo1*signo2;
+        producto = producto * signo1 * signo2;
 
         //}
         System.out.println(producto);
