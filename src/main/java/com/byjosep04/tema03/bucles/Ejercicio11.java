@@ -12,8 +12,10 @@ public class Ejercicio11 {
         do {
             System.out.println("Ingrese un numero");
             numero= Double.parseDouble(scanner.nextLine());
-            suma= suma +numero;
-            ++i;
+            if(numero>= 0){
+                suma= suma +numero;
+                ++i;
+            }
         }while (numero >0);
         media = suma / i;
         System.out.println("La media de los numeros introducidos es: " + media);
