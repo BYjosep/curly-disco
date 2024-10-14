@@ -5,7 +5,7 @@ import java.util.Random;
 public class Ejercicio14 {
     public static void main(String[] args) {
         int dado;
-        int intentos = 1_000_000;
+        final int INTENTOS = 1_000_000;
         int cara1 = 0;
         int cara2 = 0;
         int cara3 = 0;
@@ -16,7 +16,7 @@ public class Ejercicio14 {
 
         Random random = new Random();
 
-        for (int i = 0; i < intentos; i++) {
+        for (int i = 0; i < INTENTOS; i++) {
             dado = random.nextInt(1, 7);
             switch (dado) {
                 case 1 -> cara1++;
