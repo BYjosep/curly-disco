@@ -28,12 +28,12 @@ public class Ejercicio14 {
                 default -> System.err.println("ERROR");
             }
         }
-        porcentaje1 = (double) cara1 * 100 / intentos;
-        porcentaje2 = (double) cara2 / intentos * 100;
-        porcentaje3 = (double) cara3 / intentos * 100;
-        porcentaje4 = (double) cara4 / intentos * 100;
-        porcentaje5 = (double) cara5 / intentos * 100;
-        porcentaje6 = (double) cara6 / intentos * 100;
+        porcentaje1 = (double) cara1 * 100 / INTENTOS;
+        porcentaje2 = (double) cara2 / INTENTOS * 100;
+        porcentaje3 = (double) cara3 / INTENTOS * 100;
+        porcentaje4 = (double) cara4 / INTENTOS * 100;
+        porcentaje5 = (double) cara5 / INTENTOS * 100;
+        porcentaje6 = (double) cara6 / INTENTOS * 100;
         System.out.println("El porcentaje de la cara 1 ha sido de: " + porcentaje1);
         System.out.println("El porcentaje de la cara 2 ha sido de: " + porcentaje2);
         System.out.println("El porcentaje de la cara 3 ha sido de: " + porcentaje3);
