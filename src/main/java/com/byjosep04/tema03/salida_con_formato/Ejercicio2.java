@@ -10,16 +10,16 @@ public class Ejercicio2 {
         do {
             System.out.println("Ingrese la hora");
             hora = Integer.parseInt(scanner.nextLine());
-        } while (hora > 23);
+        } while (hora > 24);
         do {
             System.out.println("Ingrese los minutos");
             minutos = Integer.parseInt(scanner.nextLine());
-        } while (minutos > 59);
+        } while (minutos > 60);
 
         do {
             System.out.println("Ingrese los segundos");
             segundos = Integer.parseInt(scanner.nextLine());
-        } while (segundos > 59);
+        } while (segundos > 60);
 
         System.out.printf("La hora es: %02d:%02d:%02d", hora, minutos, segundos);
     }
