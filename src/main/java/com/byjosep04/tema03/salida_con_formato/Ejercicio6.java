@@ -2,7 +2,7 @@ package com.byjosep04.tema03.salida_con_formato;
 
 public class Ejercicio6 {
     public static void main(String[] args) {
-        String cadena="";
+        String cadena = "";
         int numeros = 1;
         final int ESCALERA = 10;
         for (int i = numeros; i < ESCALERA; i++) {

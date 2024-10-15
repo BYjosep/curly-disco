@@ -9,8 +9,8 @@ public class Ejercicio5 {
         int cMaximo = 37;
         for (int i = numeros; i < ESCALERA; i++) {
             cadena = cadena + i;
-            System.out.print("\u001B["+c+"m");
-            System.out.printf("%9s\n",cadena);
+            System.out.print("\u001B[" + c + "m");
+            System.out.printf("%9s\n", cadena);
             System.out.flush();
             c++;
             if (c > cMaximo) {
