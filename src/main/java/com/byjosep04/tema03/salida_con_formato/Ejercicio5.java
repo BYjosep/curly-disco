@@ -5,7 +5,7 @@ public class Ejercicio5 {
         String cadena = "";
         final int ESCALERA = 10;
         int c = 30;
-        int cMaximo = 37;
+        final int cMaximo = 37;
         for (int i = 1; i < ESCALERA; i++) {
             cadena = cadena + i;
             System.out.print("\u001B[" + c + "m");
